@@ -1,5 +1,6 @@
 import { Component, Input, OnDestroy, OnInit, TemplateRef } from '@angular/core';
 import icShoppingBasket from '@iconify/icons-ic/twotone-shopping-basket';
+import { stagger20ms, stagger40ms } from 'src/@vex/animations/stagger.animation';
 
 @Component({
   selector: 'vex-footer',
