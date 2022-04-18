@@ -1,43 +1,58 @@
-<div  fxLayout="row">
+<div fxLayout="row">
   <div fxFlex="auto" fxLayout="row" fxLayoutAlign="start center" vexContainer>
-      <div @fadeInUp class=" py-16">
-        <div class="mt-16 max-w-3xl mx-auto flex flex-col md:flex-row">
-          <a class="text-center p-6 border rounded md:w-1/2 md:mx-2" routerLinkActive>
-            <!-- <ic-icon [icon]="icPhoneInTalk" class="text-hint" size="42px"></ic-icon> -->
-            <img class="select-none" src="assets/img/logos/logoazul.png" style="max-width: 200px;">
-            <!-- <h3 class="title mb-0 mt-4">+1 (840) 423-3404</h3>
+    <div @fadeInUp class=" py-16">
+      <div class="mt-16 mx-auto flex flex-col md:flex-row">
+        <a class="text-center p-6" routerLinkActive>
+          <!-- <ic-icon [icon]="icPhoneInTalk" class="text-hint" size="42px"></ic-icon> -->
+          <img class="select-none" src="assets/img/logos/logo.png" style="width: 200px; margin-top: 30%;">
+          <!-- <h3 class="title mb-0 mt-4">+1 (840) 423-3404</h3>
             <h4 class="subheading-2 m-0 text-hint">Central de Atendimento</h4> -->
-          </a>
+        </a>
 
-          <a class="text-left p-6 border rounded md:w-1/2 md:mx-2" routerLinkActive>
-            <!-- <ic-icon [icon]="icMail" class="text-hint" size="42px"></ic-icon> -->
-            <h3 class="title mb-0 mt-4" style="color: #447095; "><b>ZezéDiCamargoIpsum</b></h3>
-            <h4 class="subheading-2 m-0 " style="color: #447095;">No dia em que eu saí de casa
-              Minha mãe me disse: Filho, vem cá!
-              Passou a mão em meus cabelos</h4>
-            <h4 class="subheading-2 m-0 " style="color: #447095;">Carreira</h4>
-          </a>
+        <a class="text-left p-6 md:w-1/2 md:mx-2" routerLinkActive>
+          <!-- <ic-icon [icon]="icMail" class="text-hint" size="42px"></ic-icon> -->
+          <h3 class="title mb-0 mt-4" style="color: #447095; margin-bottom: 5%;"><b>Sobre nós</b></h3>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <p style="margin-bottom: 5%;">
+              <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Segurança de dados</a>
+            </p>
+            <p style="margin-bottom: 5%;">
+              <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Carreira</a>
+            </p>
 
-          <a class="text-left p-6 border rounded md:w-1/2 md:mx-2" routerLinkActive>
-            <!-- <ic-icon [icon]="icMail" class="text-hint" size="42px"></ic-icon> -->
-            <h3 class="title mb-0 mt-4" style="color: #447095; "><b>ZezéDiCamargoIpsum</b></h3>
-            <h4 class="subheading-2 m-0 " style="color: #447095;">Tive que perder você
-              Pra ver que estava errado
-              Cansei de ver o sol nascer
-              Sem ter você do meu lado</h4>
-            <h4 class="subheading-2 m-0 " style="color: #447095;">Carreira</h4>
-          </a>
+          </div>
+        </a>
 
-          <a class="text-left p-6 border rounded md:w-1/2 md:mx-2" routerLinkActive>
-            <!-- <ic-icon [icon]="icMail" class="text-hint" size="42px"></ic-icon> -->
-            <h3 class="title mb-0 mt-4" style="color: #447095; "><b>ZezéDiCamargoIpsum</b></h3>
-            <h4 class="subheading-2 m-0 " style="color: #447095;">São três machos e uma fêmea, por sinal Maria
-              Que com todos se parecia
-              Todos de olhar esperto para ver de perto
-              Quem de muito longe é que vinha</h4>
-            <h4 class="subheading-2 m-0 " style="color: #447095;">Carreira</h4>
-          </a>
-        </div>
+        <a class="text-left p-6 md:w-1/2 md:mx-2" routerLinkActive>
+          <!-- <ic-icon [icon]="icMail" class="text-hint" size="42px"></ic-icon> -->
+          <h3 class="title mb-0 mt-4" style="color: #447095; margin-bottom: 5%;"><b>Como funiona</b></h3>
+          <p style="margin-bottom: 5%;">
+            <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Para você</a>
+          </p>
+          <p style="margin-bottom: 5%;">
+            <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Buscar especialidades</a>
+          </p>
+          <p style="margin-bottom: 5%;">
+            <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Área do Cliente</a>
+          </p>
+          <p style="margin-bottom: 5%;">
+            <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Para médicos e clínicas</a>
+          </p>
+        </a>
+
+        <a class="text-left p-6 md:w-1/2 md:mx-2" routerLinkActive>
+          <!-- <ic-icon [icon]="icMail" class="text-hint" size="42px"></ic-icon> -->
+          <h3 class="title mb-0 mt-4" style="color: #447095; margin-bottom: 5%;"><b>Ajuda</b></h3>
+          <p style="margin-bottom: 5%;">
+            <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Dúvidas frequentes</a>
+          </p>
+          <p style="margin-bottom: 5%;">
+            <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Contato</a>
+          </p>
+          <i class="fab fa-facebook-f"></i>
+        </a>
       </div>
+    </div>
   </div>
 </div>
