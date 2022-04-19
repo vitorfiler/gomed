@@ -1,7 +1,7 @@
 <div class="toolbar w-full px-gutter" fxLayout="row" fxLayoutAlign="start center" vexContainer>
-  <button (click)="openSidenav()" [fxHide]="!mobileQuery" mat-icon-button type="button">
+  <!-- <button (click)="openSidenav()" [fxHide]="!mobileQuery" mat-icon-button type="button">
     <mat-icon [icIcon]="icMenu"></mat-icon>
-  </button>
+  </button> -->
 
   <a *ngIf="isVerticalLayout$ | async"
      [routerLink]="['/']"
