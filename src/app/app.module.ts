@@ -19,6 +19,8 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { FormsModule, ReactiveFormsModule  } from "@angular/forms";
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatCarouselModule } from '@ngmodule/material-carousel';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [AppComponent, PainelComponent, HomeComponent, BuscaComponent, InfoComponent, RecomendacoesComponent, ParceirosComponent],
@@ -34,6 +36,8 @@ import { MatInputModule } from '@angular/material/input';
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
+    MatCarouselModule.forRoot(),
+    MatCardModule,
     
     // Vex
     VexModule,
