@@ -21,6 +21,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatCardModule} from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [AppComponent, PainelComponent, HomeComponent, BuscaComponent, InfoComponent, RecomendacoesComponent, ParceirosComponent],
@@ -38,6 +39,7 @@ import {MatCardModule} from '@angular/material/card';
     MatInputModule,
     MatCarouselModule.forRoot(),
     MatCardModule,
+    MatSelectModule,
     
     // Vex
     VexModule,
