@@ -1,12 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { VexRoutes } from 'src/@vex/interfaces/vex-route.interface';
 import { CustomLayoutComponent } from './custom-layout/custom-layout.component';
+import { CalendarComponent } from './pages/calendar/calendar.component';
 
-const routes: Routes = [
+const routes: VexRoutes = [
   {
     path: '',
     component: CustomLayoutComponent,
-    children: []
+    children: [
+      {
+        path: 'calendar',
+        loadChildren: () => import('./pages/calendar/calendar.module').then(m => m.CalendarModule),
+        data: {
+          toolbarShadowEnabled: true
+        }
+      },
+    ],
   }
 ];
 

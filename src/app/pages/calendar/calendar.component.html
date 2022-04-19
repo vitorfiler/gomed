@@ -1,0 +1,20 @@
+<div class="h-full flex flex-col">
+  <div class="headline">{{ viewDate | calendarDate:(view + 'ViewTitle'):'en' }}</div>
+
+  <div class="actions flex flex-col sm:flex-row justify-end items-center">
+    <div class="chevrons">
+      <button [(viewDate)]="viewDate" [view]="view" mat-icon-button mwlCalendarPreviousView>
+        <mat-icon [icIcon]="icChevronLeft"></mat-icon>
+      </button>
+      <button [(viewDate)]="viewDate" [view]="view" mat-icon-button mwlCalendarNextView>
+        <mat-icon [icIcon]="icChevronRight"></mat-icon>
+      </button>
+    </div>
+  </div>
+
+
+
+  <vex-scrollbar [ngSwitch]="view" class="px-0 shadow flex-auto relative" vexContainer>
+
+  </vex-scrollbar>
+</div>
