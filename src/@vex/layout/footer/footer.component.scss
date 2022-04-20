@@ -35,6 +35,19 @@
 }
 
 .sub:hover {
-	text-decoration: underline;
-	color: #f00
-	}
+  text-decoration: underline;
+  color: #f00
+}
+
+.alterar-icone{
+  margin-left: 8%;
+  width: 50px;
+  transition: .0s ease-in-out .0s;
+  filter: grayscale(0%);
+}
+.alterar-icone:hover{
+  margin-left: 8%;
+  width: 50px;
+  transition: .0s ease-in-out .0s;
+  filter: grayscale(100%);
+}

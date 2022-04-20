@@ -1,31 +1,25 @@
-<div fxLayout="row">
-  <div fxFlex="auto" fxLayout="row" fxLayoutAlign="start center" vexContainer>
+<div class="row">
+  <div vexContainer>
     <div @fadeInUp class=" py-16">
       <div class="mt-16 mx-auto flex flex-col md:flex-row">
         <a class="text-center p-6" routerLinkActive>
           <!-- <ic-icon [icon]="icPhoneInTalk" class="text-hint" size="42px"></ic-icon> -->
-          <img class="select-none" src="assets/img/logos/logo.png" style="width: 200px; margin-top: 30%;">
+          <img class="select-none" src="assets/img/logos/logo.png" style="width: 300px; margin-top: 30%;">
           <!-- <h3 class="title mb-0 mt-4">+1 (840) 423-3404</h3>
             <h4 class="subheading-2 m-0 text-hint">Central de Atendimento</h4> -->
         </a>
 
         <a class="text-left p-6 md:w-1/2 md:mx-2" routerLinkActive>
-          <!-- <ic-icon [icon]="icMail" class="text-hint" size="42px"></ic-icon> -->
           <h3 class="title mb-0 mt-4" style="color: #447095; margin-bottom: 5%;"><b>Sobre nós</b></h3>
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <p style="margin-bottom: 5%;">
-              <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Segurança de dados</a>
-            </p>
-            <p style="margin-bottom: 5%;">
-              <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Carreira</a>
-            </p>
-
-          </div>
+          <p style="margin-bottom: 5%;">
+            <a href="#!" class="mb-0 mt-4 sub" style="color: #447095;">Segurança de dados</a>
+          </p>
+          <p style="margin-bottom: 5%;">
+            <a href="#!" class="mb-0 mt-4 sub" style="color: #447095;">Carreira</a>
+          </p>
         </a>
 
         <a class="text-left p-6 md:w-1/2 md:mx-2" routerLinkActive>
-          <!-- <ic-icon [icon]="icMail" class="text-hint" size="42px"></ic-icon> -->
           <h3 class="title mb-0 mt-4" style="color: #447095; margin-bottom: 5%;"><b>Como funiona</b></h3>
           <p style="margin-bottom: 5%;">
             <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Para você</a>
@@ -50,7 +44,26 @@
           <p style="margin-bottom: 5%;">
             <a href="#!" class="mb-0 mt-4 sub" style="color: #447095; ">Contato</a>
           </p>
-          <i class="fab fa-facebook-f"></i>
+
+          <div class="row">
+            <div class="alterar-icone">
+              <button>
+                <img src="assets/img/logos/twitter.svg" alt="">
+              </button>
+            </div>
+
+            <div class="alterar-icone">
+              <button>
+                <img src="assets/img/logos/facebook.svg" alt="">
+              </button>
+            </div>
+
+            <div class="alterar-icone">
+              <button>
+                <img src="assets/img/logos/instagram.svg" alt="">
+              </button>
+            </div>
+          </div>
         </a>
       </div>
     </div>

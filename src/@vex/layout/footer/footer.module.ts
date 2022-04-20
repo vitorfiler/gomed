@@ -14,7 +14,7 @@ import {MatIconModule} from '@angular/material/icon';
     MatButtonModule,
     IconModule,
     ContainerModule,
-    MatIconModule
+    MatIconModule,
   ],
   declarations: [FooterComponent],
   exports: [FooterComponent]
